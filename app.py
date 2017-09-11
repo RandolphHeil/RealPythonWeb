@@ -16,9 +16,6 @@ app = Flask(__name__)
 def hello_world():
     return "Hello World!"
 
-@app.route("/test")
-def test():
-    return "Success!"
 
 #start the development server usint the run() method
 
